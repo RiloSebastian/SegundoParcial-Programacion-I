@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1530194831 source:d:\##clonegit\segundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"empleados.h"
+
+1530187862 d:\##clonegit\segundoparcial\arraylist.h
+
+1530190643 source:d:\##clonegit\segundoparcial\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1530194895 source:d:\##clonegit\segundoparcial\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Empleados.h"
+	"validaciones.h"
+
+1530194959 d:\##clonegit\segundoparcial\empleados.h
+	"ArrayList.h"
+
+1530192292 d:\##clonegit\segundoparcial\validaciones.h
+
+1530192336 source:d:\##clonegit\segundoparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"empleados.h"
+	"validaciones.h"
+
+1530190643 source:d:\##clonegit\segundoparcial-programacion-i\segundoparcial\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1530187862 d:\##clonegit\segundoparcial-programacion-i\segundoparcial\arraylist.h
+
+1530194831 source:d:\##clonegit\segundoparcial-programacion-i\segundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"empleados.h"
+
+1530194959 d:\##clonegit\segundoparcial-programacion-i\segundoparcial\empleados.h
+	"ArrayList.h"
+
+1530192336 source:d:\##clonegit\segundoparcial-programacion-i\segundoparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"empleados.h"
+	"validaciones.h"
+
+1530192292 d:\##clonegit\segundoparcial-programacion-i\segundoparcial\validaciones.h
+
+1530195642 source:d:\##clonegit\segundoparcial-programacion-i\segundoparcial\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Empleados.h"
+	"validaciones.h"
+
