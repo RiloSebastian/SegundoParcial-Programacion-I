@@ -40,9 +40,14 @@ int comparar_Empleadoss(void* , void* );
 
 int mostrar_lista_Empleadoss(ArrayList* );
 
-int crear_pagina(FILE* ,ArrayList* , eEmpleados*);
+int cargar_Archivo(FILE*  ,ArrayList* , eEmpleados* , int , char* , int , char* , float );
 
-int cargar_Empleados(ArrayList* , eEmpleados* );
+int crear_pagina(FILE* ,ArrayList* );
 
+int cargar_Empleados(ArrayList* , eEmpleados* , int , char* , int , char* , float );
+
+int borrar_Empleados(FILE*  ,ArrayList* , eEmpleados* , int , char* , int , char* , float );
+
+int leer_Archivo(FILE* );
 
 #endif

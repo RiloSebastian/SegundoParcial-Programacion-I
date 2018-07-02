@@ -69,3 +69,40 @@
 	"Empleados.h"
 	"validaciones.h"
 
+1530311662 source:c:\users\sebas\desktop\repositorio\segundoparcial-programacion-i\segundoparcial\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1530200992 c:\users\sebas\desktop\repositorio\segundoparcial-programacion-i\segundoparcial\arraylist.h
+
+1530481581 source:c:\users\sebas\desktop\repositorio\segundoparcial-programacion-i\segundoparcial\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Empleados.h"
+	"validaciones.h"
+
+1530480743 c:\users\sebas\desktop\repositorio\segundoparcial-programacion-i\segundoparcial\empleados.h
+	"ArrayList.h"
+
+1530200992 c:\users\sebas\desktop\repositorio\segundoparcial-programacion-i\segundoparcial\validaciones.h
+
+1530300527 source:c:\users\sebas\desktop\repositorio\segundoparcial-programacion-i\segundoparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"empleados.h"
+	"validaciones.h"
+
+1530481932 source:c:\users\sebas\desktop\repositorio\segundoparcial-programacion-i\segundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"empleados.h"
+	"validaciones.h"
+

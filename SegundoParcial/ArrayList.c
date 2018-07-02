@@ -622,21 +622,22 @@ int expand(ArrayList* this,int index)
 int contract(ArrayList* this,int index)
 {
     int returnAux = -1;
-    int i;
+    int j;
 
     if(this!= NULL && index>= 0 && index < al_len(this))
     {
 
-        for(i=index; i>al_len(this) ; i--)
+        for(j=index+1; j< this->size; j++)
         {
-            *(this->pElements+i)=*(this->pElements+(i+1));
-            returnAux=0;
+            *(this->pElements+(j-1)) = *(this->pElements+j);
         }
         this->size--;
+        returnAux=0;
     }
 
     return returnAux;
 }
+
 
 ArrayList* al_filter(ArrayList* listIn, int (*functionFilter)(void*))
 {

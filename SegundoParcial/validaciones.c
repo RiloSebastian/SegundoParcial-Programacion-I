@@ -105,3 +105,4 @@ num=atoi(numAux);
 numero=num;
 return numero;
 }
+

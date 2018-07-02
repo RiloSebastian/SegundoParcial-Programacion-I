@@ -1,21 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "ArrayList.h"
 #include "empleados.h"
+#include "validaciones.h"
 
 int main()
 {
-    int opcion;
-    int index=-1;
-
     FILE* empleados;
-
+    eEmpleados* empleado;
     ArrayList* arrrayEmpleados;
     arrrayEmpleados=al_newArrayList();
 
-    eEmpleados* empleado;
-
-    int contar=0;
+    int opcion;
+    int index=-1;
+    char nombre[20];
+    char profesion[20];
+    int edad;
+    float sueldo;
+    int id;
+    int len;
 
     do
     {
@@ -31,13 +35,39 @@ int main()
         switch(opcion)
         {
         case 1:
-            //index= crear_pagina(empleados,arrrayEmpleados,empleado);
-            index=cargar_Empleados(arrrayEmpleados,empleado);
+            /*if((len = arrrayEmpleados->len(arrrayEmpleados))==0)
+            {
+                 cargar_Archivo(empleados,arrrayEmpleados,empleado,id,nombre,edad,profesion,sueldo);
+            }*/
+            printf(" ingrese nombre:\n ");
+            nombre[20]= validarnombre(nombre);
+            printf(" ingrese edad:\n ");
+            edad=validarNumero(edad);
+            printf(" ingrese profesion:\n ");
+            profesion[20]=validarnombre(profesion);
+
+            if(strcmp(profesion,"analista")==0)
+            {
+                sueldo= 20000;
+            }
+            else if(strcmp(profesion,"programador")==0)
+            {
+                sueldo= 25000;
+            }
+            else if(strcmp(profesion,"tester")==0)
+            {
+                sueldo=18000;
+            }
+            index= cargar_Empleados(arrrayEmpleados,empleado,id,nombre,edad,profesion,sueldo);
+            index= crear_pagina(empleados, arrrayEmpleados);
             index= mostrar_lista_Empleadoss(arrrayEmpleados);
             break;
         case 2:
+            index=borrar_Empleados(empleados,arrrayEmpleados,empleado,id,nombre,edad,profesion,sueldo);
+            index=mostrar_lista_Empleadoss(arrrayEmpleados);
             break;
         case 3:
+            leer_Archivo(empleados);
             break;
         case 4:
             break;
